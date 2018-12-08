@@ -13,6 +13,7 @@
 		10C98DE721BB597B00EA74EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C98DE621BB597B00EA74EB /* Assets.xcassets */; };
 		10C98DEA21BB597B00EA74EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C98DE821BB597B00EA74EB /* LaunchScreen.storyboard */; };
 		10C98DF221BB5AA100EA74EB /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */; };
+		10C98DF621BB5DA800EA74EB /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		10C98DE921BB597B00EA74EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C98DEB21BB597B00EA74EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				10C98DDF21BB597A00EA74EB /* AppDelegate.swift */,
 				10C98DE121BB597A00EA74EB /* ViewController.swift */,
 				10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */,
+				10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */,
 				10C98DE321BB597A00EA74EB /* Main.storyboard */,
 				10C98DE621BB597B00EA74EB /* Assets.xcassets */,
 				10C98DE821BB597B00EA74EB /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C98DF621BB5DA800EA74EB /* SongTableViewCell.swift in Sources */,
 				10C98DF221BB5AA100EA74EB /* SongTableViewController.swift in Sources */,
 				10C98DE221BB597A00EA74EB /* ViewController.swift in Sources */,
 				10C98DE021BB597A00EA74EB /* AppDelegate.swift in Sources */,
