@@ -14,6 +14,7 @@
 		10C98DEA21BB597B00EA74EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C98DE821BB597B00EA74EB /* LaunchScreen.storyboard */; };
 		10C98DF221BB5AA100EA74EB /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */; };
 		10C98DF621BB5DA800EA74EB /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */; };
+		10E7DF5921BD95B3006DBB98 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7DF5821BD95B3006DBB98 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		10C98DEB21BB597B00EA74EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
 		10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		10E7DF5821BD95B3006DBB98 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				10C98DE621BB597B00EA74EB /* Assets.xcassets */,
 				10C98DE821BB597B00EA74EB /* LaunchScreen.storyboard */,
 				10C98DEB21BB597B00EA74EB /* Info.plist */,
+				10E7DF5821BD95B3006DBB98 /* Song.swift */,
 			);
 			path = "Song Meister";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				10C98DF221BB5AA100EA74EB /* SongTableViewController.swift in Sources */,
 				10C98DE221BB597A00EA74EB /* ViewController.swift in Sources */,
 				10C98DE021BB597A00EA74EB /* AppDelegate.swift in Sources */,
+				10E7DF5921BD95B3006DBB98 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,11 +11,13 @@ import os.log
 
 class SongTableViewController: UITableViewController {
     
+    var songs = [Song]()
     let cellIdentifier = "SongTableViewCell"
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadDefaultSongs()
     }
     
     override func didReceiveMemoryWarning() {
@@ -28,7 +30,7 @@ class SongTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return songs.count
         
     }
     
@@ -39,11 +41,48 @@ class SongTableViewController: UITableViewController {
             fatalError("The dequeued cell is not an instance of ContrastAgentTableViewCell.")
         }
         
-        
-        cell.lblSongTitle.text = "what is up!"
+        let song = songs[indexPath.row]
+        cell.lblSongTitle.text = song.name
         // Return the configured cell
         return cell
     }
+    
+    private func loadDefaultSongs() {
+        songs = [Song]()
+        
+        
+        guard let donnie = Song(
+            title: "donnie")
+            else {
+                fatalError("")
+        }
+        
+        guard let jack = Song(
+            title: "jack")
+            else {
+                fatalError("")
+        }
+        
+        guard let bill = Song(
+            title: "bill")
+            else {
+                fatalError("")
+        }
+        
+        guard let xulu = Song(
+            title: "xulu")
+            else {
+                fatalError("")
+        }
+        
+        
+        
+        songs += [donnie, jack, bill, xulu]
+        
+        
+    }
+    
+        
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        super.prepare(for: segue, sender: sender)
