@@ -10,6 +10,10 @@ import UIKit
 import os.log
 
 class SongTableViewController: UITableViewController {
+    
+    let cellIdentifier = "SongTableViewCell"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -25,9 +29,23 @@ class SongTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
+        
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Create an object of the dynamic cell "PlainCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? SongTableViewCell  else {
+            fatalError("The dequeued cell is not an instance of ContrastAgentTableViewCell.")
+        }
+        
+        
+        cell.lblSongTitle.text = "what is up!"
+        // Return the configured cell
+        return cell
     }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        super.prepare(for: segue, sender: sender)
+//    }
 }

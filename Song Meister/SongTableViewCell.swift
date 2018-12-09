@@ -2,6 +2,8 @@ import UIKit
 
 class SongTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var lblSongTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
