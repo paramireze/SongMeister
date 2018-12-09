@@ -42,7 +42,7 @@ class SongTableViewController: UITableViewController {
         }
         
         let song = songs[indexPath.row]
-        cell.lblSongTitle.text = song.name
+        cell.lblSongTitle.text = song.title
         // Return the configured cell
         return cell
     }
@@ -52,7 +52,7 @@ class SongTableViewController: UITableViewController {
         
         
         guard let donnie = Song(
-            title: "donnie")
+            title: "donnie - the retard")
             else {
                 fatalError("")
         }
