@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelSongTitle: UILabel!
+    
+    var selectedSong: Song?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let selectedSong = selectedSong {
+            
+            let songTitle = selectedSong.title
+            
+            labelSongTitle.text = songTitle
+            
+        }
     }
-
-
 }
 

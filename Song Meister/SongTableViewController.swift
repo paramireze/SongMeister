@@ -83,8 +83,22 @@ class SongTableViewController: UITableViewController {
     }
     
         
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        super.prepare(for: segue, sender: sender)
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        guard let songViewController = segue.destination as? ViewController else {
+            fatalError("Unexpected Destination: \(segue.destination)")
+        }
+        
+        guard let selectedSongTableViewCell = sender as? SongTableViewCell else {
+            fatalError("Unexpected sender: \(sender)")
+        }
+        
+        guard let indexPath = tableView.indexPath(for: selectedSongTableViewCell) else {
+            fatalError("The selected cell is not being displayed by the table")
+        }
+        
+        let selectedSong = songs[indexPath.row]
+        songViewController.selectedSong = selectedSong
+    }
 }
