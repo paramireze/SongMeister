@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var labelSongTitle: UILabel!
+    @IBOutlet weak var labelSongLyrics: UILabel!
     
     var selectedSong: Song?
     
@@ -21,8 +22,10 @@ class ViewController: UIViewController {
         if let selectedSong = selectedSong {
             
             let songTitle = selectedSong.title
+            let songLyrics = selectedSong.lyrics
             
             labelSongTitle.text = songTitle
+            labelSongLyrics.text = songLyrics
             
         }
     }

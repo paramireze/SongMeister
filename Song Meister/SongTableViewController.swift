@@ -51,33 +51,23 @@ class SongTableViewController: UITableViewController {
         songs = [Song]()
         
         
-        guard let donnie = Song(
-            title: "donnie - the retard")
-            else {
-                fatalError("")
-        }
-        
-        guard let jack = Song(
-            title: "jack")
-            else {
-                fatalError("")
-        }
-        
-        guard let bill = Song(
-            title: "bill")
-            else {
-                fatalError("")
-        }
-        
-        guard let xulu = Song(
-            title: "xulu")
+        guard let soldier = Song(
+            title: "A Soldier I Will Be",
+            lyrics: "Asshole, asshole, a soldier I will be, \n"
+            + "To piss, to piss, two pistols on my knee, \n"
+            + "For cunt, for cunt, for country and for queen. \n"
+            + "Asshole, asshole, asshole, asshole,\n"
+            + "A soldier I will be."
+            )
+            
             else {
                 fatalError("")
         }
         
         
         
-        songs += [donnie, jack, bill, xulu]
+        
+        songs += [soldier]
         
         
     }
