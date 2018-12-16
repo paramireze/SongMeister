@@ -11,9 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var labelSongTitle: UILabel!
-    @IBOutlet weak var labelSongLyrics: UILabel!
+    @IBOutlet weak var textViewSongLyrics: UITextView!
     
     var selectedSong: Song?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
             let songLyrics = selectedSong.lyrics
             
             labelSongTitle.text = songTitle
-            labelSongLyrics.text = songLyrics
+            textViewSongLyrics.text =  songLyrics
             
         }
     }
