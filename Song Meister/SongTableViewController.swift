@@ -85,16 +85,6 @@ class SongTableViewController: UITableViewController {
             + "But when you explode she don’t swallow your load, \n"
             + "She fills all the cream sticks instead. \n"
             + "Ay, yi, yi, yi, your father refills cream doughnuts. \n\n"
-            
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
-                + "She fills all the cream sticks instead. \n"
                 
             + "There once was a girl named Sue, \n"
             + "Who filled up her quim with glue. \n"
