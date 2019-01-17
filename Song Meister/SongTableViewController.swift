@@ -1,11 +1,3 @@
-//
-//  SongTableViewController.swift
-//  Song Meister
-//
-//  Created by Ramirez Paul E on 12/7/18.
-//  Copyright © 2018 Ramirez Paul E. All rights reserved.
-//
-
 import UIKit
 import os.log
 
@@ -53,6 +45,7 @@ class SongTableViewController: UITableViewController {
         
         guard let soldier = Song(
             title: "A Soldier I Will Be",
+            shortDescription: nil,
             lyrics: "Asshole, asshole, a soldier I will be, \n"
             + "To piss, to piss, two pistols on my knee, \n"
             + "For cunt, for cunt, for country and for queen. \n"
@@ -66,6 +59,7 @@ class SongTableViewController: UITableViewController {
         
         guard let AyYiYiYi = Song(
             title: "Ay, Yi, Yi, Yi",
+            shortDescription: nil,
             lyrics: "*Limerick Verse* \n"
             + "There once was a girl named Alice, \n"
             + "Who used a dynamite for a phallice. \n"
@@ -103,8 +97,81 @@ class SongTableViewController: UITableViewController {
                 fatalError("Well, duck farts")
         }
         
+        guard let brotherHasher = Song(
+            title: "Brother Hasher",
+            shortDescription: nil,
+            lyrics: "Here’s to brother hasher, \n"
+            + "Bother hasher, brother hasher. \n"
+            + "Here’s to brother hasher, \n"
+            + "May he chug-a-lug. \n\n"
+            
+            + "He’s happy, he’s jolly, \n"
+            + "He’s fucked up by golly. \n"
+            + "Here’s to brother hasher, \n"
+            + "May he chug-a-lug. \n\n"
+            
+            + "So drink motherfucker, \n"
+            + "Drink motherfucker, \n"
+            + "Drink motherfucker, \n"
+            + "Drink motherfucker. \n\n"
+            
+            + "Here’s to brother hasher, \n"
+            + "May he chug-a-lug."
+            )
+            
+            else {
+                fatalError("Well, duck farts")
+        }
         
-        songs += [soldier, AyYiYiYi]
+        guard let bullshit = Song(
+            title: "Bullshit",
+            shortDescription: nil,
+            lyrics: "Bull-shit, bull-shit, \n"
+            + "It all sounds like bullshit to me, to me! \n"
+            
+            + "Bull-shit, bull-shit, \n"
+            + "It all sounds like bullshit to me!"
+            )
+            
+            else {
+                fatalError("Well, duck farts")
+        }
+        
+        guard let burlesque = Song(
+            title: "Burlesque Show",
+            shortDescription: nil,
+            lyrics: "Hi ho! Hi ho! \n"
+                + "It’s off to the burlesque show, \n"
+                + "We’ll sit up front to see their cunts, \n"
+                + "Hi ho! Hi ho! \n\n"
+                
+                + "At half past eight, \n"
+                + "We’ll masturbate. . . \n\n"
+                
+                + "We’re small on wits, \n"
+                + "But big on tits. \n\n"
+                
+                + "We’ll drop our drawers \n"
+                + "And fuck some whores. \n\n"
+                
+                + "At 10 ’til 8, \n"
+                + "We’ll fornicate. \n"
+                
+                + "I paid my buck, \n"
+                + "Now where’s my fuck. \n"
+            )
+            
+            else {
+                fatalError("Well, duck farts")
+        }
+        
+        guard let dinah = Song(title: "Dinah Won't you",
+                               shortDescription: "this is a short description",
+                               lyrics: "Blow my horn"
+            ) else { fatalError("Abort!")
+        }
+        
+        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah]
         
         
     }
