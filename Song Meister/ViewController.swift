@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelSongTitle: UILabel!
     @IBOutlet weak var textViewSongLyrics: UITextView!
+    @IBOutlet weak var labelShortDescription: UILabel!
     
     var selectedSong: Song?
     
@@ -24,9 +25,11 @@ class ViewController: UIViewController {
             
             let songTitle = selectedSong.title
             let songLyrics = selectedSong.lyrics
+            let shortDescription = selectedSong.shortDescription
             
             labelSongTitle.text = songTitle
             textViewSongLyrics.text =  songLyrics
+            labelShortDescription.text = shortDescription
             
         }
     }
