@@ -411,7 +411,7 @@ class SongTableViewController: UITableViewController {
             ) else { fatalError("Abort!")
         }
         
-        guard let hotVagina = Song(title: "Hot Vagina?!?",
+        guard let hotVagina = Song(title: "Hot Vagina",
                                        lyrics: "*Tune: \"I've Been Working on the Railroad\" \n\n"
             + "Hot vagina for your breakfast, \n"
             + "Hot vagina for your lunch, \n"
@@ -425,7 +425,437 @@ class SongTableViewController: UITableViewController {
             ) else { fatalError("Abort!")
         }
         
-        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangLow, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina]
+        guard let iLikeHashing = Song(title: "I Like Hashing",
+                                      lyrics: "I like hashing, I like hashing \n"
+            + "Hashing’s fun, hashing’s fun \n"
+            + "Fill up all the hash mugs, \n"
+            + "Fill up all the hash mugs, \n"
+            + "One by one, one by one."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let iNeedASheep = Song(title: "I need a Sheep",
+                                     lyrics: "Bring me some whiskey, mother \n"
+            + "I’m feeling frisky, mother \n"
+            + "I need a sheep to keep me warm through the night! \n"
+            + "I need a lover, mother \n"
+            + "No, not my brother, mother \n"
+            + "I need a sheep to keep me warm through the night! \n\n"
+            
+            + "Gerbils don’t make it, mother \n"
+            + "They just can’t take it, mother \n"
+            + "I need a sheep to keep me warm through the night! \n"
+            + "Owls, bats and other critters \n"
+            + "Just tend to give me the jitters \n"
+            + "I need a sheep to keep me warm through the night! \n\n"
+            
+            + "Sheep never talk about it \n"
+            + "They never doubt it \n"
+            + "Always so placid, affectionate and nice! \n"
+            + "Give me that lanolin \n"
+            + "Better than flannel-in \n"
+            + "I need a sheep to keep me warm through the night!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let iUseToWorkInChicago = Song(title: "I Use to Work in Chicago",
+                                             lyrics: "*Chorus* \n"
+            + "I used to work in Chicago, \n"
+            + "In an old department store. \n"
+            + "I used to work in Chicago, \n"
+            + "But I don’t work there anymore. \n\n"
+            
+            + "*Verse* \n"
+            + "A woman came in for a glazed doughnut. \n"
+            + "Glazed doughnut from the store? \n"
+            + "Glazed doughnut she wanted, cream filled she got! \n"
+            + "Ohhhh and I don’t work there anymore! \n\n"
+            
+            + "*More Verses:* \n\n"
+        
+            + "Ruler  ->  12 inches \n"
+            + "Hammer  ->  Nailed \n"
+            + "Liquor  ->  Lick her I did \n"
+            + "Seafood  ->  Crabs \n"
+            + "Juice Box  ->  Juice from my box \n"
+            + "Brass Tub  ->  Golden Shower \n"
+            + "Quick Service  ->  Quick Serviced \n"
+            + "Nail  ->  Screwed \n"
+            + "Fishing Rod  ->  My Pole \n"
+            + "Jewelry  ->  Pearl Necklace \n"
+            + "Duck  ->  Misheard her I did \n"
+            + "Beer  ->  Bush \n"
+            + "Horse  ->  Ridden \n"
+            + "Doughnut  ->  My Hole \n"
+            + "Pizza  ->  Backdoor Delivery \n"
+            + "Ruler  ->  12 inches \n"
+            + "Dinner  ->  Ate Out \n"
+            + "Piano  ->  My Organ \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let iAmALittleHasher = Song(title: "I'm a Little Hasher",
+                                     lyrics: "Tune: \"I’m a Little Teapot\" \n\n"
+            + "I’m a little hasher, \n"
+            + "Short and stout. \n"
+            + "Here is my handle and here is my spout. \n"
+            + "When I get all fucked up hear me shout, \n"
+            + "Tip me over and pour me out! \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let ifYourGfTastesLikeShit = Song(title: "If your Girlfriend Tastes Like Shit",
+                                                lyrics: "If your girlfriend tastes like shit, flip her over. \n"
+            + "If your girlfriend tastes like shit, flip her over. \n"
+            + "If your girlfriend tastes like shit, \n"
+            + "That’s her asshole not her clit. \n"
+            + "If your girlfriend tastes like shit, flip her over."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let itsASmallDick = Song(title: "It's a Small Dick",
+                                                lyrics: "Tune: \"It’s a Small World\" \n"
+            + "Well it isn’t long and it isn’t thick, \n"
+            + "It gets hard too slow and it cums too quick, \n"
+            + "It gets lost in her twat, \n"
+            + "But it’s all that he’s got, \n"
+            + "It’s a small, small, dick. \n\n"
+            
+            + "It’s a small dick after all, \n"
+            + "It’s a small dick after all, \n"
+            + "Always limp from alcohol, \n"
+            + "It’s a small, small, dick! \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let jackTheNecrophiliac = Song(title: "Jack the Necrophiliac",
+                                       lyrics: "*… = nana nana nana na* \n\n"
+            + "My name is Jack… \n"
+            + "and I’m a necrophiliac… \n\n"
+            
+            + "I fuck dead women… \n"
+            + "and I fill them with jism… \n\n"
+            
+            + "I get frustrated… \n"
+            + "when they’re cremated… \n\n"
+            
+            + "Cause try as I must… \n"
+            + "I can’t fuck dust… \n\n"
+            
+            + "——————– \n\n"
+            + "My name is Gus… \n"
+            + "and I’m incestuous… \n\n"
+            
+            + "I fucked my mother… \n"
+            + "and buggered my brother… \n\n"
+            
+            + "But when they die, \n"
+            + "I will not cry… \n\n"
+            
+            + "Cause just like Jack… \n"
+            + "I'm a necrophiliac… \n\n"
+            
+            + "——————– \n\n"
+            + "My name is Kyle… \n"
+            + "and I’m a pedophile… \n\n"
+            
+            + "Little boys and girls… \n"
+            + "Are my sex toys… \n\n"
+            
+            + "If I have a son… \n"
+            + "It’ll be so fun… \n\n"
+            
+            + "‘Cause just like Gus… \n"
+            + "I’m incestuous… \n\n"
+            
+            + "——————– \n\n"
+            + "My name is McDonald... \n"
+            + "But I’m no Ronald… \n\n"
+            
+            + "My Speciality… \n"
+            + "Is beastiality… \n\n"
+            
+            + "I show my charm… \n"
+            + "Down on the farm… \n\n"
+            
+            + "I sew wild oats… \n"
+            + "When I go at the goats… \n\n"
+            
+            + "I pet the pony… \n"
+            + "And it makes me boney… \n\n"
+            
+            + "Forget little Bo-Peep… \n"
+            + "I shag her sheep… \n\n"
+            
+            + "She says “golly”… \n"
+            + "So I fuck her collie… \n\n"
+            
+            + "I blow the bull… \n"
+            + "till my cheeks are full… \n\n"
+            
+            + "I don’t get rattled… \n"
+            + "double fucking cattle… \n\n"
+            
+            + "Dad showed me how… \n"
+            + "When we shared the cow… \n\n"
+            
+            + "I stroked her udder… \n"
+            + "she said “I’m your mudder!”… \n\n"
+            
+            + "I did not fuss… \n"
+            + "’cuz I’m like Gus… \n\n"
+            
+            + "——————– \n"
+            + "I’m the ghost of McJack… \n"
+            + "I was a bestial necrophiliac… \n\n"
+            
+            + "I got a big thrill… \n"
+            + "When I reamed roadkill… \n\n"
+            
+            + "I’d say hop into bed girl… \n"
+            + "‘n fuckme likea dead squirrel… \n\n"
+            
+            + "I’d sideswipe a hen… \n"
+            + "Park and hit it again… \n\n"
+            
+            + "I did a dead duck… \n"
+            + "And got hit by a truck… \n\n"
+            
+            + "Credit for many verses: Zamboner, MH3"
+            
+
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let jesusCantGoHashing = Song(title: "Jesus Can’t Go Hashing",
+                                            lyrics: "*Verse* \n"
+            + "Jesus can’t go hashing ‘cause the flour falls through his hands. \n"
+            + "Jesus can’t go hashing ‘cause the flour falls through his hands. \n"
+            + "Jesus can’t go hashing ‘cause the flour falls through his hands. \n"
+            + "Jesus saves, Jesus saves, Jesus saves. \n\n"
+            
+            + "*Chorus* \n"
+            + "More beer for all the Hashers, \n"
+            + "More beer for all the Hashers, \n"
+            + "More beer for all the Hashers, \n"
+            + "Jesus saves, Jesus saves, Jesus saves. \n\n"
+            
+            + "*New Verse* \n\n"
+            
+            + "*More Verses* \n"
+            + "Jesus can’t go hashing ‘cause… \n"
+            + "…the Jew wont’s pay 5 bucks. \n"
+            + "…his Dad knows all the trails. \n"
+            + "…he turns the beer to wine. \n"
+            + "…he’s too busy getting nailed. \n"
+            + "…the shiggy’s on his head. \n"
+            + "…he’s mowing my front lawn. \n"
+            + "…he’s hung like (arms out like a cross) this. \n"
+            + "…he works on Sunday. \n"
+            + "…he doesn’t exist."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let kotexFactory = Song(title: "Kotex Factory",
+                                            lyrics: "Tune: “As the Caissons Go Rolling Along”\n\n"
+            + "*Chorus* \n"
+            + "For it’s hi, hi, he, in the Kotex factory, \n"
+            + "Shout out your sizes loud and clear (loud and clear)! \n"
+            + "They’ve got small, medium and large, \n"
+            + "They’ve got enough to fill a barge, \n"
+            + "When the end of the month rolls around. \n\n"
+            
+            + "*Verse* \n"
+            + "You can tell by the stain that she’s in a lot of pain. \n"
+            + "As the end of the month rolls around. \n\n"
+            
+            + "*Repeat Chorus* \n\n"
+            
+            + "*More Verses* \n"
+            + "You can tell by… \n"
+            + "…the stain that she’s in a lot of pain. \n"
+            + "…her stance she’s got cotton in her pants. \n"
+            + "…her pout that her eggs are falling out. \n"
+            + "…her stance that she’s bleeding in her pants. \n"
+            + "…the ‘stache that the dog’s been in the trash. \n"
+            + "…the stink that your cock will come out pink. \n"
+            + "…the rope that you haven’t got a hope. \n"
+            + "…the whining that she’s shedding her uterine lining. \n"
+            + "…her anger, that you’ll need that coat hanger. \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let meetTheHashers = Song(title: "Meet the Hashers",
+                                      lyrics: "Tune: “The Flintstones”\n\n"
+            + "Hashers, meet the Hashers. \n"
+            + "They’re the biggest drunks in history. \n"
+            + "From the hash of MADISON, \n"
+            + "They’re the leaders in debauchery. \n"
+            + "Half minds, trailing shiggy through the years, \n"
+            + "Watch them as they down a lot of beers! \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let numberOne = Song(title: "Number One",
+                                        lyrics: "*Starting with all digits erect*”\n\n"
+            + "You’re not number five, \n"
+            + "Number four, \n"
+            + "Number three, \n"
+            + "Number two… \n"
+            + "You’re Number ONE! \n\n"
+            
+            + "*Middle finger is last finger erect*"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let oscarMeyer = Song(title: "Oscar Meyer Song (Peter Penis)",
+                                    lyrics: "My penis has a first name, it’s P-E-T-E-R. \n"
+            + "My penis has a second name, it’s P-E-N-I-S. \n"
+            + "My girl she sucks is every day \n"
+            + "and if you ask her why she’ll say \n"
+            + "Gah-gag-gag-gag \n\n"
+            
+            + "His penis has a first name, it’s P-E-T-E-R. \n"
+            + "His penis has a second name, it’s P-E-N-I-S. \n"
+            + "I like to fuck him every day and if you ask my why I’ll say, \n"
+            + "‘Cause peter penis has a way with my V-A-G-I-N-A \n\n"
+            
+            + "*MH3 Completely Sensical Version* \n"
+            + "My penis has a first name, it’s F-O-R-E-skin. \n"
+            + "My penis has an address, it’s just north of your chin. \n"
+            + "I love to eat is every day, and if you ask me why I’ll say \n"
+            + "Gah-gag-gag-gag \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let prisonRape = Song(title: "Prison Rape Song",
+                                    lyrics: "Tune: “Lookin’ Out My Backdoor” \n"
+            + "Just got out of prison, \n"
+            + "My asshole’s still a-fizzin’ \n"
+            + "Thinkin’ bout the friends I left behind in cell block 4 \n"
+            + "They raped me in the showers, \n"
+            + "It must have been for hours, \n"
+            + "Now goo goo goo’s comin’ out my back door! \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let purpleHaze = Song(title: "Purple Haze",
+                                    lyrics: "Purple haze \n\n"
+            + "Running through my mind… \n\n"
+            + "Drink it down, down, down, down… \n\n"
+            + "Credit: Zamboner, MH3 \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let putYourLegOverMyShoulder = Song(title: "Put Your Leg Over My Shoulder",
+                                                  lyrics: "Put your left leg over my shoulder, \n"
+            + "Put your right leg over my shoulder, \n"
+            + "La la la la! \n\n"
+            
+            + "Put your left tit over my shoulder, \n"
+            + "Put your right tit over my shoulder, \n"
+            + "Bla bla bla bla!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let seldomSeens = Song(title: "Seldom Seens",
+                                      lyrics: "Tune: “Where oh Where Has my Little Dog Gone?” \n\n"
+            + "Where, Oh where were you last week? \n"
+            + "Why did you make us hash all alone? \n"
+            
+            + "You Fat Lazy Bastards, you weren’t even here. \n"
+            + "So we fucked all the virgins and drank all the beer. \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let shesAHarriette = Song(title: "She's a Harriette",
+                                     lyrics: "Tune: “Turkey in the Straw” \n\n"
+            + "*Option A* \n"
+            + "Oh the wiggle of her ass could make a dead man come, \n"
+            + "And the nipple on her tit is as big as my thumb, \n"
+            + "She’s a mean motherfucker, she’s a great cocksucker, \n"
+            + "She’s a Harriette! \n\n"
+            
+            + "*Option B* \n"
+            + "She‘s got big ‘ol boobies like the porno movies, \n"
+            + "And she could suck a golf ball through a garden hose. \n"
+            + "She shaves her beaver, and I‘ll never leave her. \n"
+            + "Just get her drunk and anything goes."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let shiggyAndMud = Song(title: "Shiggy and Mud",
+                                lyrics: "A man is made out of muscle and blood, \n"
+            + "But a hasher is made out of shiggy and mud. \n"
+            + "Shiggy and mud and a barrel of ale, \n"
+            + "A rape whistle blowing on a shitty trail. \n\n"
+            
+            + "You drink sixteen beers and what do you get? \n"
+            + "A little bit drunk and a little bit wet. \n"
+            + "Well St. Peter don’t you call me cause I’ll make you frown, \n"
+            + "I can’t go to heaven till I do this down down. \n\n"
+            + "Credit: Shattered Sexpectations, Larryville Hash House Harriers"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let skeeterOnMyPeeter = Song(title: "Skeeter On My Peeter",
+                                      lyrics: "Tune: “If You’re Happy and You Know It” \n\n"
+            + "There’s a skeeter on my peter, wack it off, (wack it off!) \n"
+            + "There’s a skeeter on my peter, wack it off, (wack it off!) \n"
+            + "There’s a dozen on my cousin’s, \n"
+            + "I can hear the fucker’s buzzin, \n"
+            + "There’s a skeeter on my peter, wack it off! \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let swingLowSweetChariot = Song(title: "Swing Low, Sweet Chariot",
+                                           lyrics: "Tune: “Swing Low, Sweet Chariot” \n\n"
+            + "Swing low, sweet chariot, \n"
+            + "Coming for to carry me home. \n"
+            
+            + "I looked over Jordan, and what did I see, \n"
+            + "Coming for to carry me home? \n"
+            + "A band of angels, coming after me, \n"
+            + "Coming for to carry me home. \n"
+            
+            + "If you get to there before I shit, \n"
+            + "Coming for to carry me home, \n"
+            + "Tell all my friends that I‘m coming too, \n"
+            + "Coming for to carry me home. \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theAirForceSong = Song(title: "The Air Force Song",
+                                              lyrics: "Here we go… \n"
+                                                + "Into the wild blue yonder \n"
+                                                + "Crash and burn… \n"
+                                                + "Son of a bitch. \n"
+            
+            ) else { fatalError("Abort!")
+        }
+       
+        
+        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangLow, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina, iLikeHashing, iNeedASheep, iUseToWorkInChicago, iAmALittleHasher, ifYourGfTastesLikeShit, itsASmallDick, jackTheNecrophiliac, jesusCantGoHashing, kotexFactory, meetTheHashers, numberOne, oscarMeyer, prisonRape, purpleHaze, putYourLegOverMyShoulder, seldomSeens, shesAHarriette, shiggyAndMud, skeeterOnMyPeeter, swingLowSweetChariot, theAirForceSong]
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
