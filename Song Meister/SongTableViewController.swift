@@ -854,8 +854,371 @@ class SongTableViewController: UITableViewController {
             ) else { fatalError("Abort!")
         }
        
+        guard let theBallOfKerryMuir = Song(title: "The Ball of Kerrymuir",
+                                            lyrics: "*Chorus* \n"
+            + "Singin’ balls to your partner, \n"
+            + "Ass against the wall. \n"
+            + "If you can’t get laid on Saturday night, \n"
+            + "You’ll never get laid at all \n\n"
+            
+            + "*Verse* \n"
+            + "The bride was in the bedroom, \n"
+            + "Explaining to the groom. \n"
+            + "The vagina not the rectum \n"
+            + "Is the entrance to the womb \n\n"
+            
+            + "*Repeat Chorus* \n\n"
+            
+            + "*More Verses* \n"
+            + "The village magician he was there, \n"
+            + "Doing his favorite trick. \n"
+            + "Pulling his foreskin over his head \n"
+            + "And vanishing up his prick. \n\n"
+            
+            + "There was fucking on the carpet, \n"
+            + "There was fucking on the stairs. \n"
+            + "You couldn’t see the carpet \n"
+            + "For the layer of pubic hairs. \n\n"
+            
+            + "The village cripple he was there, \n"
+            + "He wasn’t good for much. \n"
+            + "He lined up all the ladies \n"
+            + "And fucked them with his crutch. \n\n"
+            
+            + "The local herder he was there, \n"
+            + "And he began to weep. \n"
+            + "All these willing ladies \n"
+            + "And not a single sheep. \n"
+            
+            ) else { fatalError("Abort!")
+        }
         
-        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangLow, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina, iLikeHashing, iNeedASheep, iUseToWorkInChicago, iAmALittleHasher, ifYourGfTastesLikeShit, itsASmallDick, jackTheNecrophiliac, jesusCantGoHashing, kotexFactory, meetTheHashers, numberOne, oscarMeyer, prisonRape, purpleHaze, putYourLegOverMyShoulder, seldomSeens, shesAHarriette, shiggyAndMud, skeeterOnMyPeeter, swingLowSweetChariot, theAirForceSong]
+        guard let theBallSong = Song(title: "The Ball Song",
+                                     lyrics: "Tune: “Colonel Bogey March” \n"
+            + "*Select 3 hashers to incorporate into the song* \n\n"
+            + "[Hasher 1], has only got 1 ball.\n"
+            + "[Hasher 2], has two but very small.\n"
+            + "[Hasher 3], has something similar,\n"
+            + "But this guy has no balls at all."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theBillClintonClapSong = Song(title: "The Bill Clinton Clap Song",
+                                                lyrics: "My name’s Bill Clinton \n"
+            + "And I’m no clown \n"
+            + "So grab that beer \n"
+            + "And drink it Down, down, down down…\n\n"
+            + "Credit: MH3"
+            
+            ) else { fatalError("Abort!")
+        }
+
+        guard let theForeskinSong = Song(title: "The Foreskin Song",
+                                                lyrics: "Tune: “My Bonnie Lies Over the Ocean” \n\n"
+            + "My one skin hangs down to my two skin, \n"
+            + "My two skin hangs down to my three, \n"
+            + "My three skin hangs down to my foreskin, \n"
+            + "My foreskin hangs down to my knees. \n\n"
+            
+            + "Roll back, roll back, \n"
+            + "Roll back my foreskin for me, for me. \n"
+            + "Roll back, roll back, \n"
+            + "Roll back my foreskin for me."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theHareSong = Song(title: "The Hare Song",
+                                     lyrics: "Here’s to the hares, they’re true blue. \n"
+            + "They are hashers through and through. \n"
+            + "They are piss-pots, so they say. \n"
+            + "They tried to get to heaven, \n"
+            + "But they went the other way."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theHurleyTitSong = Song(title: "The Hurley Tit Song",
+                                          lyrics: "Her left tit hit me from the right side, \n"
+            + "Her right tit hit me over here. \n"
+            + "If both of here big tits had missed me, \n"
+            + "I wouldn’t have spilled all my beer. \n\n"
+            
+            + "Credit: Numerous MH3 Hashers,including \n"
+            + "Dribbles In and Nut Farmer \n\n"
+            
+            + "*Original Song* \n"
+            + "Her left tit hangs down to her belly, \n"
+            + "Her right tit hangs down to her knee. \n"
+            + "If her left tit did equal her right tit, \n"
+            + "She’d get lots of weenie from me. \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theMusicMan = Song(title: "The Music Man",
+                                     lyrics: "*Chorus*  \n"
+            + "Leader: I am the Music Man \n"
+            + "Hashers: You come from far away \n"
+            + "Leader: And I can play \n"
+            + "Hashers: What can you play? \n\n"
+            
+            + "*Verse* \n"
+            + "Leader: I can play the sexy-phone \n"
+            + "All: Sexy-sexy-sexy-phone, sexy-phone, sexy-phone. \n"
+            + "Sexy-sexy-sexy-phone, sexy-sexy-phone. \n\n"
+            
+            + "*Chorus* \n"
+            + "Leader: I am the Music Man \n"
+            + "Hashers: You come from far away \n"
+            + "Leader: And I can play \n"
+            + "Hashers: What can you play? \n\n"
+            
+            + "*Verse* \n"
+            + "Leader: I can play the piccolo \n"
+            + "All: Pick-a pick-a pick-a-nose, pick-a nose x2 \n"
+            + "Pick-a pick-a pick-a nose, pick-a pick-a nose. \n\n"
+            
+            + "Leader: I can play the sexy-phone \n"
+            + "All: Sexy-sexy-sexy-phone, sexy-phone, sexy-phone. \n"
+            + "Sexy-sexy-sexy-phone, sexy-sexy-phone. \n\n"
+            
+            + "*Repeat Chorus and all previous verses* \n\n"
+            
+            + "*Additional Verses* \n"
+            + "Leader: I can play the Bungalows \n"
+            + "All: Bongo bongo bongo boobs, bongo boobs x2 \n"
+            + "Bongo bongo bongo boobs, bongo bongo boobs. \n"
+            + "Leader: I can sing like Michael Jackson \n"
+            + "All: Holy shit my hair’s on fire, hair’s on fire x2. \n"
+            + "Holy shit my hair’s on fire, hair’s on hair’s on fire. \n"
+            + "Leader: I can also sing like Michael Jackson \n"
+            + "All: Come here come here little boy, little boy. \n"
+            + "Come here come here little boy, little little boy. \n"
+            + "Leader: I can sing like a bus driver \n"
+            + "All: Holy shit my breaks don’t work, breaks don’t work x2 Holy shit my breaks don’t work, breaks \n"
+            + "don’t breaks don’t work. \n"
+            + "Leader: I can sing like a fuck boy \n"
+            + "All: Hey girl Hey girl hey you up, hey you up x2 \n"
+            + "Hey girl hey girl hey you up, hey you hey you up."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theNoSong = Song(title: "The No Song",
+                                          lyrics: "No. No. No.\n"
+            + "Bad.Bad.Bad \n"
+            + "Down. Down. Down"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theSMMan = Song(title: "The S&M Man",
+                                   lyrics: "Tune: “The Candy Man” \n\n"
+            + "*Chorus* \n"
+            + "It’s the S&M man, the S&M man. \n"
+            + "The S&M man because he mixes it with love, \n"
+            + "And makes the hurt feel good, yeah the hurt feel good. \n\n"
+            
+            + "*Verse* \n"
+            + "Who will run through jaggers, ripping up his flesh, \n"
+            + "Turn right around, and repeat the bloody mess? \n\n"
+            
+            + "*Repeat Chorus* \n\n"
+            
+            + "*More Verses* \n"
+            + "Who will take a puppy; Grab him by the ears; \n"
+            + "Fuck him in the ass until he cries his puppy tears? \n\n"
+            
+            + "Who will take a grater; Strap it to his arm; \n"
+            + "Thrust her up and down until he gets vagina parmesan? \n\n"
+            
+            + "Who will take a baby; Lay it on the bed; \n"
+            + "Fuck it in the ass until its really fucking dead? \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theUrinalSong = Song(title: "The Urinal Song",
+                                       lyrics: "They ought to be thoroughly pissed on, \n"
+            + "They ought to be publicly shot (Bang! Bang!), \n"
+            + "They ought to be tied to a urinal, \n"
+            + "And left there to fester and rot."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let theVaginaSong = Song(title: "The Vagina Song",
+                                       lyrics: "Someone’s in my brother’s big anus, \n"
+            + "Someone’s in my brother I know. \n"
+            + "Someone’s in my brother’s big anus, \n"
+            + "Pumping like a Dynamo. \n\n"
+            
+            + "Credit: Cow Poker, MH3 \n\n"
+            
+            + "*Original Song* \n"
+            + "Someone’s in my sister’s vagina, \n"
+            + "Someone’s in my sister I know. \n"
+            + "Someone’s in my sister’s vagina, \n"
+            + "Pumping like a Dynamo."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let thereWasALittleBird = Song(title: "There Was a Little Bird",
+                                       lyrics: "There was a little bird, \n"
+            + "No bigger than a turd, \n"
+            + "A-sittin’ on a telephone pole. \n"
+            + "He ruffled up his neck, \n"
+            + "And shit about a peck, \n"
+            + "He puckered up his little asshole. \n"
+            + "Asshole, asshole, asshole, asshole, \n"
+            + "He puckered up his little asshole."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let twentyToes = Song(title: "Twenty Toes",
+                                    lyrics: "There is a game called twenty toes, \n"
+            + "That’s played around the town. \n"
+            + "Women play with ten toes up, \n"
+            + "And men with play toes down, down, down, down…"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let weGotVirgins = Song(title: "We've Got Virgins",
+                                      lyrics: "Tune: “Frere Jacques” \n\n"
+            
+            + "We’ve got virgins, \n"
+            + "We’ve got virgins, \n"
+            + "At our hash, \n"
+            + "At our hash, \n"
+            + "Gonna get ’em drunked up, \n"
+            + "Gonna get ’em fucked up, \n"
+            + "Down the hatch, \n"
+            + "Up the ass! \n\n"
+            
+            + "*Second version* \n"
+            + "We’ve got virgins \n"
+            + "We’ve got virgins \n"
+            + "Yes We Do \n"
+            + "Yes We Do \n"
+            + "Gonna get ‘em fucked up \n"
+            + "Gonna Get ‘em fucked up \n"
+            + "Up the ass \n"
+            + "Up the ass \n"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let whatAWonderfulTrail = Song(title: "What a Wonderful Trail",
+                                             lyrics: "I see trails of true, \n"
+            + "Poison oak too. \n"
+            + "I hear hashers on trail \n"
+            + "Crying “RU?” \n"
+            + "And I think to myself, \n"
+            + "What a wonderful trail!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let whipItOutAtTheBallGame = Song(title: "Whip it Out at the Ballgame",
+                                             lyrics: "Tune: “Take Me Out to the Ballgame” \n\n"
+            + "Whip it out at the ball game, \n"
+            + "Whip it round at the crowd. \n"
+            + "Dip it peanuts and Crackerjacks – \n"
+            + "I don’t care if you give it a whack! \n"
+            + "Because it’s beat your meat at the ball game. \n"
+            + "If you don’t cum it’s a shame. \n"
+            + "‘Cause it’s one, two, and you’re covered in goo, \n"
+            + "At the old ball game!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let whyWereTheyBornSoBeautiful = Song(title: "Why Were They Born So Beautiful?",
+                                                    lyrics: "Why were they born so beautiful? \n"
+            + "Why were they born at all? \n"
+            + "They’re no fucking use to anyone, \n"
+            + "They’re no fucking use at all. \n"
+            + "They may be a joy to their mother \n"
+            + "But they’re a pain in the asshole to me."
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let yogiBear = Song(title: "Yogi Bear",
+                                                    lyrics: "Tune: “Camptown Races” \n\n"
+            + "*Introduction* \n"
+            + "There’s a bear in the deep dark woods – Yogi, Yogi, \n"
+            + "There’s a bear in the deep dark woods – Yogi, Yogi Bear. \n"
+            + "Yogi, Yogi Bear, Yogi, Yogi Bear, \n"
+            + "There is a bear in the deep dark woods, \n"
+            + "Yogi, Yogi Bear. \n\n"
+            
+            + "Yogi has a little friend – Boo Boo, Boo Boo, \n"
+            + "Yogi has a little friend – Boo Boo, Boo Boo Bear. \n"
+            + "Boo Boo, Boo Boo Bear, Boo Boo, Boo Boo Bear, \n"
+            + "Yogi has a little friend, \n"
+            + "Boo Boo, Boo Boo Bear. \n\n"
+            
+            + "Yogi has a girlfriend – Cindy, Cindy, \n"
+            + "Yogi has a girlfriend – Cindy, Cindy Bear. \n"
+            + "Cindy, Cindy Bear, Cindy, Cindy Bear, \n"
+            + "Yogi has a girlfriend, \n"
+            + "Cindy, Cindy Bear. \n\n"
+            
+            + "*Verse* \n"
+            + "Cindy doesn’t have no teeth – Gummy, Gummy \n"
+            + "Cindy doesn’t have no teeth – Gummy, Gummy Bear. \n"
+            + "Gummy, Gummy Bear, Gummy, Gummy Bear, \n"
+            + "Cindy’s a Gummy Bear. \n\n"
+            
+            + "*More Verses* \n\n"
+            
+            + "Yogi \n"
+            + "Likes to roll his own  ->  Smokey Bear \n"
+            + "Has an M-16  ->  Right to bear \n"
+            + "Uses Condoms  ->  Clever Bear \n"
+            + "Has a 12” cock  ->  Black Bear \n\n"
+            + "Boo Boo \n"
+            + "Has a 12’ cock  ->  Liar Bear \n"
+            + "Has a cheesy dick  ->  Camem-bert \n"
+            + "Is a nudist  ->  Right to bear \n\n"
+            + "Cindy \n"
+            + "Likes it upside down  ->  Koala Bear \n"
+            + "Girlfriend  ->  Klondike Bear \n"
+            + "Likes it up the butt  ->  Brown Bear \n"
+            + "Is a frigid Bitch  ->  Polar Bear \n"
+            + "Doesn’t shave her snatch  ->  Grizzly Bear \n"
+            + "Wears Lingerie  ->  Teddy Bear \n"
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let youreStupid = Song(title: "You're Stupid",
+                                     lyrics: "You’re stupid, you’re stupid, \n"
+            + "You’re really fucking dumb, \n"
+            + "If it wasn’t for your mother, \n"
+            + "You’d be a stain of cum!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        guard let ZuluWarrior = Song(title: "Zulu Warrior",
+                                     lyrics: "Ika zimba zimba zoy \n"
+            + "Ika zimba zimba zoo \n"
+            + "Drink it down you Zulu warrior, \n"
+            + "Drink it down you Zulu chief. \n"
+            + "Drink it down you Zulu warrior, \n"
+            + "Drink it down you Zulu chief, chief, chief!"
+            
+            ) else { fatalError("Abort!")
+        }
+        
+        
+        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangLow, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina, iLikeHashing, iNeedASheep, iUseToWorkInChicago, iAmALittleHasher, ifYourGfTastesLikeShit, itsASmallDick, jackTheNecrophiliac, jesusCantGoHashing, kotexFactory, meetTheHashers, numberOne, oscarMeyer, prisonRape, purpleHaze, putYourLegOverMyShoulder, seldomSeens, shesAHarriette, shiggyAndMud, skeeterOnMyPeeter, swingLowSweetChariot, theAirForceSong, theBallOfKerryMuir, theBallSong, theBillClintonClapSong, theForeskinSong,theHareSong, theHurleyTitSong, theMusicMan, theNoSong, theSMMan, theUrinalSong, theVaginaSong, thereWasALittleBird, twentyToes, weGotVirgins, whatAWonderfulTrail, whipItOutAtTheBallGame, whyWereTheyBornSoBeautiful, yogiBear, youreStupid, ZuluWarrior]
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
