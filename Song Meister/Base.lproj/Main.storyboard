@@ -95,7 +95,9 @@
         <scene sceneID="6zI-bO-g8q">
             <objects>
                 <navigationController title="Hash Songs" automaticallyAdjustsScrollViewInsets="NO" id="4gY-EJ-lSD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="TYR-vS-cjw"/>
+                    <tabBarItem key="tabBarItem" title="Songs" image="song" selectedImage="song" id="TYR-vS-cjw">
+                        <color key="badgeColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="13Y-Aq-KDd">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -170,7 +172,7 @@
         <scene sceneID="ddP-Dr-bUM">
             <objects>
                 <navigationController title="Calendar" automaticallyAdjustsScrollViewInsets="NO" id="zEt-wP-auZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ISQ-Yy-FzX"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" selectedImage="calendar" id="ISQ-Yy-FzX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hQ8-Lh-Imd">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -186,4 +188,8 @@
             <point key="canvasLocation" x="191.19999999999999" y="902.69865067466276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="37.5" height="37.5"/>
+        <image name="song" width="40" height="40"/>
+    </resources>
 </document>
