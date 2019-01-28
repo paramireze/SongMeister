@@ -27,8 +27,21 @@ class ViewController: UIViewController {
             
             labelSongTitle.text = songTitle
             textViewSongLyrics.text =  songLyrics
-            
+            addLogo()
         }
+    }
+    
+    // dynamically add logo to top right of screen in nav bar
+    func addLogo() {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        
+        let image = UIImage(named: "navBarIcon")?.withRenderingMode(.alwaysOriginal)
+        imageView.image = image
+        
+        let logo = UIBarButtonItem(image: image, style: UIBarButtonItem.Style.plain, target: self, action: nil)
+        
+        self.navigationItem.rightBarButtonItem = logo
     }
 }
 

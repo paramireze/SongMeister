@@ -15,9 +15,11 @@ class SongTableViewController: UITableViewController {
     let cellIdentifier = "SongTableViewCell"
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadDefaultSongs()
+        addLogo()
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,6 +47,19 @@ class SongTableViewController: UITableViewController {
         cell.lblSongTitle.text = song.title
         // Return the configured cell
         return cell
+    }
+    
+    // dynamically add logo to top right of screen in nav bar
+    func addLogo() {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        
+        let image = UIImage(named: "navBarIcon")?.withRenderingMode(.alwaysOriginal)
+        imageView.image = image
+        
+        let logo = UIBarButtonItem(image: image, style: UIBarButtonItem.Style.plain, target: self, action: nil)
+        
+        self.navigationItem.rightBarButtonItem = logo
     }
     
     private func loadDefaultSongs() {
@@ -177,20 +192,6 @@ class SongTableViewController: UITableViewController {
             + "Dinah won’t you blow me, \n"
             + "Dinah won’t you blow me, \n"
             + "Dinah won’t you blow my horn?"
-            
-            ) else { fatalError("Abort!")
-        }
-        
-        guard let doYourBallsHangLow = Song(title: "Do Your Balls Hang Low?",
-                                            lyrics: "*Tune: Do Your Ears Hang Low?* \n\n"
-            + "Do your balls hang low? \n"
-            + "Do they swing to and fro? \n"
-            + "Can you tie them in a knot? \n"
-            + "Can you tie them in a bow? \n"
-            + "Can you throw them over your shoulder, \n"
-            + "Like a Continental soldier? \n"
-            + "Can you do the double shuffle, \n"
-            + "When your balls hang low?"
             
             ) else { fatalError("Abort!")
         }
@@ -1218,7 +1219,7 @@ class SongTableViewController: UITableViewController {
         }
         
         
-        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangLow, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina, iLikeHashing, iNeedASheep, iUseToWorkInChicago, iAmALittleHasher, ifYourGfTastesLikeShit, itsASmallDick, jackTheNecrophiliac, jesusCantGoHashing, kotexFactory, meetTheHashers, numberOne, oscarMeyer, prisonRape, purpleHaze, putYourLegOverMyShoulder, seldomSeens, shesAHarriette, shiggyAndMud, skeeterOnMyPeeter, swingLowSweetChariot, theAirForceSong, theBallOfKerryMuir, theBallSong, theBillClintonClapSong, theForeskinSong,theHareSong, theHurleyTitSong, theMusicMan, theNoSong, theSMMan, theUrinalSong, theVaginaSong, thereWasALittleBird, twentyToes, weGotVirgins, whatAWonderfulTrail, whipItOutAtTheBallGame, whyWereTheyBornSoBeautiful, yogiBear, youreStupid, ZuluWarrior]
+        songs += [soldier, AyYiYiYi, brotherHasher, bullshit, burlesque, dinah, doYourBallsHangAndTits, dosABeer, doseOfClap, downDownSong, elCamino, frontHoleBackHole, fuckADuck, gapingHugeVagina, happyBirthdaySongs, hasherMan, head, hesTheMeanest, hotVagina, iLikeHashing, iNeedASheep, iUseToWorkInChicago, iAmALittleHasher, ifYourGfTastesLikeShit, itsASmallDick, jackTheNecrophiliac, jesusCantGoHashing, kotexFactory, meetTheHashers, numberOne, oscarMeyer, prisonRape, purpleHaze, putYourLegOverMyShoulder, seldomSeens, shesAHarriette, shiggyAndMud, skeeterOnMyPeeter, swingLowSweetChariot, theAirForceSong, theBallOfKerryMuir, theBallSong, theBillClintonClapSong, theForeskinSong,theHareSong, theHurleyTitSong, theMusicMan, theNoSong, theSMMan, theUrinalSong, theVaginaSong, thereWasALittleBird, twentyToes, weGotVirgins, whatAWonderfulTrail, whipItOutAtTheBallGame, whyWereTheyBornSoBeautiful, yogiBear, youreStupid, ZuluWarrior]
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
