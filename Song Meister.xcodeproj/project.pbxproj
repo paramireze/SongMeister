@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1044549021FE88AD00D80A80 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044548F21FE88AD00D80A80 /* ScheduleViewController.swift */; };
+		1077FE0621FE797100D6DD40 /* HashCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077FE0521FE797100D6DD40 /* HashCalendarViewController.swift */; };
+		1077FE0821FE809B00D6DD40 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077FE0721FE809B00D6DD40 /* CustomTabBar.swift */; };
 		10B4557D21C290D500F020BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B4557C21C290D500F020BB /* Launch Screen.storyboard */; };
 		10C98DE021BB597A00EA74EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DDF21BB597A00EA74EB /* AppDelegate.swift */; };
 		10C98DE221BB597A00EA74EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C98DE121BB597A00EA74EB /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1044548F21FE88AD00D80A80 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		1077FE0521FE797100D6DD40 /* HashCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashCalendarViewController.swift; sourceTree = "<group>"; };
+		1077FE0721FE809B00D6DD40 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		10B4557C21C290D500F020BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		10C98DDC21BB597A00EA74EB /* Song Meister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Song Meister.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C98DDF21BB597A00EA74EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				10C98DDF21BB597A00EA74EB /* AppDelegate.swift */,
+				1077FE0521FE797100D6DD40 /* HashCalendarViewController.swift */,
 				10C98DE121BB597A00EA74EB /* ViewController.swift */,
 				10C98DF121BB5AA100EA74EB /* SongTableViewController.swift */,
 				10C98DF521BB5DA800EA74EB /* SongTableViewCell.swift */,
@@ -72,6 +79,8 @@
 				10C98DEB21BB597B00EA74EB /* Info.plist */,
 				10E7DF5821BD95B3006DBB98 /* Song.swift */,
 				10B4557C21C290D500F020BB /* Launch Screen.storyboard */,
+				1077FE0721FE809B00D6DD40 /* CustomTabBar.swift */,
+				1044548F21FE88AD00D80A80 /* ScheduleViewController.swift */,
 			);
 			path = "Song Meister";
 			sourceTree = "<group>";
@@ -150,7 +159,10 @@
 			files = (
 				10C98DF621BB5DA800EA74EB /* SongTableViewCell.swift in Sources */,
 				10C98DF221BB5AA100EA74EB /* SongTableViewController.swift in Sources */,
+				1077FE0821FE809B00D6DD40 /* CustomTabBar.swift in Sources */,
+				1044549021FE88AD00D80A80 /* ScheduleViewController.swift in Sources */,
 				10C98DE221BB597A00EA74EB /* ViewController.swift in Sources */,
+				1077FE0621FE797100D6DD40 /* HashCalendarViewController.swift in Sources */,
 				10C98DE021BB597A00EA74EB /* AppDelegate.swift in Sources */,
 				10E7DF5921BD95B3006DBB98 /* Song.swift in Sources */,
 			);
