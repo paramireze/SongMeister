@@ -112,7 +112,7 @@
             </objects>
             <point key="canvasLocation" x="234.40000000000001" y="101.19940029985008"/>
         </scene>
-        <!--Hash Calendar View Controller-->
+        <!--Hash Calendar-->
         <scene sceneID="AAr-RN-qah">
             <objects>
                 <viewController id="kea-Ab-lnM" customClass="HashCalendarViewController" customModule="Song_Meister" customModuleProvider="target" sceneMemberID="viewController">
@@ -129,19 +129,11 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xON-5o-aLd">
-                                <rect key="frame" x="16" y="504" width="343" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Direct Link to Calendar: https://calendar.google.com/calendar?cid=cTIwNmg0Z2JwNGNmZzVtMTNpcDk1dmNoODhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xtj-yh-RFO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HBd-Iz-kXp"/>
+                    <navigationItem key="navigationItem" title="Hash Calendar" id="HBd-Iz-kXp"/>
                     <connections>
                         <outlet property="webView" destination="Jgl-bv-OMb" id="sZR-pc-7EH"/>
                     </connections>
@@ -163,67 +155,11 @@
                     <connections>
                         <segue destination="4gY-EJ-lSD" kind="relationship" relationship="viewControllers" id="oml-G2-uqZ"/>
                         <segue destination="zEt-wP-auZ" kind="relationship" relationship="viewControllers" id="gAE-Wb-Ijh"/>
-                        <segue destination="fya-Hb-zhb" kind="relationship" relationship="viewControllers" id="kDd-i1-TTX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BF6-it-oPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-704.79999999999995" y="101.19940029985008"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dLn-Iy-wwn">
-            <objects>
-                <viewController id="Kg9-bB-zpn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ism-TO-TcQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zkC-ut-P2m">
-                                <rect key="frame" x="16" y="64" width="343" height="350"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkT-0w-wJi">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="87.5"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Want to hare? Email us at hare@madisonh3.com " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tp-jF-PgK">
-                                        <rect key="frame" x="0.0" y="87.5" width="343" height="87.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a song to share? Email Webmaster@madisonh3.com" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmG-se-ihQ">
-                                        <rect key="frame" x="0.0" y="175" width="343" height="87.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This has been a Madison H3 production" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aj-pM-KDv">
-                                        <rect key="frame" x="0.0" y="262.5" width="343" height="87.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="Jnk-o8-XCa"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="350" id="kjf-eO-1ce"/>
-                                </constraints>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="rqO-HU-sTK">
-                                <rect key="frame" x="56" y="427" width="263" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="KBv-KH-tMQ"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Pdo-n6-8ou"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ndU-Ec-lwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1128.8" y="1683.5082458770617"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="ddP-Dr-bUM">
@@ -244,28 +180,8 @@
             </objects>
             <point key="canvasLocation" x="191.19999999999999" y="902.69865067466276"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="NXK-mj-OAs">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fya-Hb-zhb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="ep5-W7-2o5"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Ww-lI-z03">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Kg9-bB-zpn" kind="relationship" relationship="rootViewController" id="6aV-3q-VoF"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T1G-Wi-aTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="189.59999999999999" y="1683.5082458770617"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="Image" width="245.75999450683594" height="190.55999755859375"/>
         <image name="calendar" width="37.5" height="37.5"/>
         <image name="song" width="40" height="40"/>
     </resources>
