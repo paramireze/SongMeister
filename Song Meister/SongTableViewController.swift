@@ -45,7 +45,9 @@ class SongTableViewController: UITableViewController {
         
         let song = songs[indexPath.row]
         cell.lblSongTitle.text = song.title
+        cell.lblShortVerse.text = song.shortVerse
         // Return the configured cell
+        
         return cell
     }
     
@@ -68,6 +70,7 @@ class SongTableViewController: UITableViewController {
         
         guard let soldier = Song(
             title: "A Soldier I Will Be",
+            shortVerse: "Asshole, asshole, a soldier I will be, to piss, to piss...",
             lyrics: "Asshole, asshole, a soldier I will be, \n"
             + "To piss, to piss, two pistols on my knee, \n"
             + "For cunt, for cunt, for country and for queen. \n"
@@ -81,6 +84,7 @@ class SongTableViewController: UITableViewController {
         
         guard let AyYiYiYi = Song(
             title: "Ay, Yi, Yi, Yi",
+            shortVerse: "There once was a girl named Alice, Who used a dynamite... ",
             lyrics: "*Limerick Verse* \n\n"
             + "There once was a girl named Alice, \n"
             + "Who used a dynamite for a phallice. \n"
@@ -120,6 +124,7 @@ class SongTableViewController: UITableViewController {
         
         guard let brotherHasher = Song(
             title: "Brother Hasher",
+            shortVerse: "Here’s to brother hasher, Bother hasher, brother hasher.",
             lyrics: "Here’s to brother hasher, \n"
                 + "Bother hasher, brother hasher. \n"
                 + "Here’s to brother hasher, \n"
@@ -145,6 +150,7 @@ class SongTableViewController: UITableViewController {
         
         guard let bullshit = Song(
             title: "Bullshit",
+            shortVerse: "Bull-shit, bull-shit, It all sounds like ...",
             lyrics: "Bull-shit, bull-shit, \n"
                 + "It all sounds like bullshit to me, to me! \n"
                 
@@ -158,6 +164,7 @@ class SongTableViewController: UITableViewController {
         
         guard let burlesque = Song(
             title: "Burlesque Show",
+            shortVerse: "Hi ho! Hi ho! It’s off to the burlesque show.",
             lyrics: "*Tune: Hi Ho, Hi Ho, It’s Off to Work We Go* \n\n"
                 + "Hi ho! Hi ho! \n"
                 + "It’s off to the burlesque show, \n"
@@ -185,6 +192,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let dinah = Song(title: "Dinah Won't you",
+                               shortVerse: "Dinah won’t you blow me, dinah won’t you",
                                lyrics: "Dinah won’t you blow me, \n"
             + "Dinah won’t you blow me, \n"
             + "Dinah won’t you blow my horn? \n\n"
@@ -197,6 +205,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let doYourBallsHangAndTits = Song(title: "Do Your Balls Hang Low?",
+                                                shortVerse: "Do your balls hang low? Do they swing to ...",
                                                 lyrics: "*Tune: Do Your Ears Hang Low?* \n\n"
             + "Do your balls hang low? \n"
             + "Do they swing to and fro? \n"
@@ -218,8 +227,8 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let dosABeer = Song(title: "Dos, a Beer",
+                                  shortVerse: "Dos, a beer, a Mexican beer, Ray, the guy",
                                   lyrics: "*Tune: Do-Re-Mi* \n\n"
-            
             + "Dos, a beer, a Mexican beer, \n"
             + "Ray, the guy who buys me beer, \n"
             + "Me, the guy, who drinks the beer, \n"
@@ -233,6 +242,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let doseOfClap = Song(title: "Dose of Clap",
+                                    shortVerse: "He’s got a dose of clap on his dick, He’s got a dose ...",
                                     lyrics: "*Tune: He's Got the Whole World, in His Hands* \n\n"
             + "He’s got a dose of clap on his dick, \n"
             + "He’s got a dose of clap on his dick, \n"
@@ -243,6 +253,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let downDownSong = Song(title: "Down Down Song",
+                                      shortVerse: "This is your Down-Down song, it isn’t ...",
                                   lyrics: "This is your Down-Down song, \n"
             + "It isn’t very long . \n"
             + "Drink it down, down, down down…. \n"
@@ -251,6 +262,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let elCamino = Song(title: "El Camino",
+                                  shortVerse: "El, Camino… El, El, Camino. he front is like a car ...",
                                   lyrics: "*Chorus*\n"
             + "El, Camino… El, El, Camino. \n\n"
             
@@ -283,6 +295,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let frontHoleBackHole = Song(title: "Front Hole Back Hole",
+                                           shortVerse: "You take the front hole, and I’ll take the back hole.",
                                            lyrics: "Tune: Loch Lomond \n\n"
             + "You take the front hole, \n"
             + "And I’ll take the back hole. \n"
@@ -298,6 +311,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let fuckADuck = Song(title: "Fuck a Duck",
+                                   shortVerse: "Fuck a duck, a female duck, Screw a baby kangaroo...",
                                    lyrics: "Tune: Do-Re-Mi \n\n"
             + "Fuck a duck, a female duck \n"
             + "Screw a baby kangaroo. \n"
@@ -315,6 +329,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let gapingHugeVagina = Song(title: "Gaping Huge Vagina",
+                                          shortVerse: "I fell in to a gaping huge vagina. I went down, down down ...",
                                    lyrics: "Tune: \"Ring of Fire\" Johnny Cash \n\n"
             + "I fell in to a gaping huge vagina. \n"
             + "I went down, down down,\n"
@@ -326,6 +341,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let happyBirthdaySongs = Song(title: "Happy Birthday Songs",
+                                            shortVerse: "Happy birthday, fuck you, happy birthday, fuck you",
                                             lyrics: "Happy birthday, fuck you, \n"
             + "Happy birthday, fuck you, \n"
             + "Happy birthday, you asshole, \n"
@@ -354,6 +370,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let hasherMan = Song(title: "Hasher Man",
+                                   shortVerse: "It’s five O’clock on a Saturday, the regular ...",
                                    lyrics: "It’s five O’clock on a Saturday \n"
             + "The regular crowd gathers near \n"
             + "There’s an old man standing next to me \n"
@@ -374,6 +391,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let head = Song(title: "Head?!?",
+                              shortVerse: "Who said head? I’ll have some of that! ",
                               lyrics: "Head?!? \n"
             + "Who said head? \n"
             + "I’ll have some of that! \n"
@@ -393,7 +411,8 @@ class SongTableViewController: UITableViewController {
             ) else { fatalError("Abort!")
         }
         
-        guard let hesTheMeanest = Song(title: "Head?!?",
+        guard let hesTheMeanest = Song(title: "He's the Meanest",
+                                       shortVerse: "He's the meanest, he sucks a horse’s penis ...",
                               lyrics: "He's the meanest, \n"
             + "He sucks a horse’s penis, \n"
             + "He’s the meanest, \n"
@@ -413,6 +432,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let hotVagina = Song(title: "Hot Vagina",
+                                   shortVerse: "Hot vagina for your breakfast, hot vagina for ...",
                                        lyrics: "*Tune: \"I've Been Working on the Railroad\" \n\n"
             + "Hot vagina for your breakfast, \n"
             + "Hot vagina for your lunch, \n"
@@ -427,6 +447,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let iLikeHashing = Song(title: "I Like Hashing",
+                                      shortVerse: "I like hashing, I like hashing. Hashing’s fun ...",
                                       lyrics: "I like hashing, I like hashing \n"
             + "Hashing’s fun, hashing’s fun \n"
             + "Fill up all the hash mugs, \n"
@@ -437,6 +458,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let iNeedASheep = Song(title: "I need a Sheep",
+                                     shortVerse: "Bring me some whiskey, mother ",
                                      lyrics: "Bring me some whiskey, mother \n"
             + "I’m feeling frisky, mother \n"
             + "I need a sheep to keep me warm through the night! \n"
@@ -462,6 +484,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let iUseToWorkInChicago = Song(title: "I Use to Work in Chicago",
+                                             shortVerse: "I used to work in Chicago, in an old department store. ",
                                              lyrics: "*Chorus* \n"
             + "I used to work in Chicago, \n"
             + "In an old department store. \n"
@@ -499,6 +522,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let iAmALittleHasher = Song(title: "I'm a Little Hasher",
+                                          shortVerse: "I’m a little hasher, short and stout.",
                                      lyrics: "Tune: \"I’m a Little Teapot\" \n\n"
             + "I’m a little hasher, \n"
             + "Short and stout. \n"
@@ -510,6 +534,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let ifYourGfTastesLikeShit = Song(title: "If your Girlfriend Tastes Like Shit",
+                                                shortVerse: "If your girlfriend tastes like shit, flip her over.",
                                                 lyrics: "If your girlfriend tastes like shit, flip her over. \n"
             + "If your girlfriend tastes like shit, flip her over. \n"
             + "If your girlfriend tastes like shit, \n"
@@ -520,6 +545,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let itsASmallDick = Song(title: "It's a Small Dick",
+                                       shortVerse: "Well it isn’t long and it isn’t thick, It gets hard too slow and ... ",
                                                 lyrics: "Tune: \"It’s a Small World\" \n"
             + "Well it isn’t long and it isn’t thick, \n"
             + "It gets hard too slow and it cums too quick, \n"
@@ -536,6 +562,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let jackTheNecrophiliac = Song(title: "Jack the Necrophiliac",
+                                             shortVerse: "My name is Jack… and I’m a necrophiliac… ",
                                        lyrics: "*… = nana nana nana na* \n\n"
             + "My name is Jack… \n"
             + "and I’m a necrophiliac… \n\n"
@@ -636,6 +663,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let jesusCantGoHashing = Song(title: "Jesus Can’t Go Hashing",
+                                            shortVerse: "Jesus can’t go hashing ‘cause the flour falls through his hands.",
                                             lyrics: "*Verse* \n"
             + "Jesus can’t go hashing ‘cause the flour falls through his hands. \n"
             + "Jesus can’t go hashing ‘cause the flour falls through his hands. \n"
@@ -666,6 +694,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let kotexFactory = Song(title: "Kotex Factory",
+                                      shortVerse: "For it’s hi, hi, he, in the Kotex factory, ... ",
                                             lyrics: "Tune: “As the Caissons Go Rolling Along”\n\n"
             + "*Chorus* \n"
             + "For it’s hi, hi, he, in the Kotex factory, \n"
@@ -696,6 +725,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let meetTheHashers = Song(title: "Meet the Hashers",
+                                        shortVerse: "Hashers, meet the Hashers. They’re the biggest drunks in history.",
                                       lyrics: "Tune: “The Flintstones”\n\n"
             + "Hashers, meet the Hashers. \n"
             + "They’re the biggest drunks in history. \n"
@@ -708,6 +738,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let numberOne = Song(title: "Number One",
+                                   shortVerse: "You’re not number five,",
                                         lyrics: "*Starting with all digits erect*”\n\n"
             + "You’re not number five, \n"
             + "Number four, \n"
@@ -721,6 +752,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let oscarMeyer = Song(title: "Oscar Meyer Song (Peter Penis)",
+                                    shortVerse: "My penis has a first name, it’s P-E-T-E-R.",
                                     lyrics: "My penis has a first name, it’s P-E-T-E-R. \n"
             + "My penis has a second name, it’s P-E-N-I-S. \n"
             + "My girl she sucks is every day \n"
@@ -742,6 +774,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let prisonRape = Song(title: "Prison Rape Song",
+                                    shortVerse: "Just got out of prison, my asshole’s still a-fizzin",
                                     lyrics: "Tune: “Lookin’ Out My Backdoor” \n"
             + "Just got out of prison, \n"
             + "My asshole’s still a-fizzin’ \n"
@@ -754,6 +787,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let purpleHaze = Song(title: "Purple Haze",
+                                    shortVerse: "Purple haze, running through my mind… ",
                                     lyrics: "Purple haze \n\n"
             + "Running through my mind… \n\n"
             + "Drink it down, down, down, down… \n\n"
@@ -763,6 +797,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let putYourLegOverMyShoulder = Song(title: "Put Your Leg Over My Shoulder",
+                                                  shortVerse: "Put your left leg over my shoulder, put your right... ",
                                                   lyrics: "Put your left leg over my shoulder, \n"
             + "Put your right leg over my shoulder, \n"
             + "La la la la! \n\n"
@@ -775,6 +810,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let seldomSeens = Song(title: "Seldom Seens",
+                                     shortVerse: "Where, Oh where were you last week? Why did you make us hash all alone?",
                                       lyrics: "Tune: “Where oh Where Has my Little Dog Gone?” \n\n"
             + "Where, Oh where were you last week? \n"
             + "Why did you make us hash all alone? \n"
@@ -786,6 +822,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let shesAHarriette = Song(title: "She's a Harriette",
+                                        shortVerse: "Oh the wiggle of her ass could make a dead man come, ",
                                      lyrics: "Tune: “Turkey in the Straw” \n\n"
             + "*Option A* \n"
             + "Oh the wiggle of her ass could make a dead man come, \n"
@@ -803,6 +840,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let shiggyAndMud = Song(title: "Shiggy and Mud",
+                                      shortVerse: "A man is made out of muscle and blood, but a hasher is made ...",
                                 lyrics: "A man is made out of muscle and blood, \n"
             + "But a hasher is made out of shiggy and mud. \n"
             + "Shiggy and mud and a barrel of ale, \n"
@@ -818,6 +856,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let skeeterOnMyPeeter = Song(title: "Skeeter On My Peeter",
+                                           shortVerse: "There’s a skeeter on my peter, wack it off,",
                                       lyrics: "Tune: “If You’re Happy and You Know It” \n\n"
             + "There’s a skeeter on my peter, wack it off, (wack it off!) \n"
             + "There’s a skeeter on my peter, wack it off, (wack it off!) \n"
@@ -829,6 +868,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let swingLowSweetChariot = Song(title: "Swing Low, Sweet Chariot",
+                                              shortVerse: "Swing low, sweet chariot, coming for to carry me home.",
                                            lyrics: "Tune: “Swing Low, Sweet Chariot” \n\n"
             + "Swing low, sweet chariot, \n"
             + "Coming for to carry me home. \n"
@@ -847,6 +887,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theAirForceSong = Song(title: "The Air Force Song",
+                                         shortVerse: "Here we go… into the wild blue yonder",
                                               lyrics: "Here we go… \n"
                                                 + "Into the wild blue yonder \n"
                                                 + "Crash and burn… \n"
@@ -856,6 +897,7 @@ class SongTableViewController: UITableViewController {
         }
        
         guard let theBallOfKerryMuir = Song(title: "The Ball of Kerrymuir",
+                                            shortVerse: "Singin’ balls to your partner, ass against the wall.",
                                             lyrics: "*Chorus* \n"
             + "Singin’ balls to your partner, \n"
             + "Ass against the wall. \n"
@@ -895,6 +937,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theBallSong = Song(title: "The Ball Song",
+                                     shortVerse: "[Hasher 1], has only got 1 ball. [Hasher 2], has two but very small.",
                                      lyrics: "Tune: “Colonel Bogey March” \n"
             + "*Select 3 hashers to incorporate into the song* \n\n"
             + "[Hasher 1], has only got 1 ball.\n"
@@ -906,6 +949,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theBillClintonClapSong = Song(title: "The Bill Clinton Clap Song",
+                                                shortVerse: "My name’s Bill Clinton and I’m no clown",
                                                 lyrics: "My name’s Bill Clinton \n"
             + "And I’m no clown \n"
             + "So grab that beer \n"
@@ -916,6 +960,7 @@ class SongTableViewController: UITableViewController {
         }
 
         guard let theForeskinSong = Song(title: "The Foreskin Song",
+                                         shortVerse: "My one skin hangs down to my two skin, My two skin hangs ...",
                                                 lyrics: "Tune: “My Bonnie Lies Over the Ocean” \n\n"
             + "My one skin hangs down to my two skin, \n"
             + "My two skin hangs down to my three, \n"
@@ -931,6 +976,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theHareSong = Song(title: "The Hare Song",
+                                     shortVerse: "Here’s to the hares, they’re true blue.",
                                      lyrics: "Here’s to the hares, they’re true blue. \n"
             + "They are hashers through and through. \n"
             + "They are piss-pots, so they say. \n"
@@ -941,6 +987,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theHurleyTitSong = Song(title: "The Hurley Tit Song",
+                                          shortVerse: "Her left tit hit me from the right side, her right tit hit me over here. ",
                                           lyrics: "Her left tit hit me from the right side, \n"
             + "Her right tit hit me over here. \n"
             + "If both of here big tits had missed me, \n"
@@ -959,6 +1006,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theMusicMan = Song(title: "The Music Man",
+                                     shortVerse: "Leader: I am the Music Man. Hashers: You come from far away",
                                      lyrics: "*Chorus*  \n"
             + "Leader: I am the Music Man \n"
             + "Hashers: You come from far away \n"
@@ -1008,6 +1056,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theNoSong = Song(title: "The No Song",
+                                   shortVerse: "No. No. No. Bad. Bad. Bad. Down. Down. Down.",
                                           lyrics: "No. No. No.\n"
             + "Bad.Bad.Bad \n"
             + "Down. Down. Down"
@@ -1016,6 +1065,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theSMMan = Song(title: "The S&M Man",
+                                  shortVerse: "It's the S&M man, the S&M man. The S&M man because he it ...",
                                    lyrics: "Tune: “The Candy Man” \n\n"
             + "*Chorus* \n"
             + "It’s the S&M man, the S&M man. \n"
@@ -1042,6 +1092,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theUrinalSong = Song(title: "The Urinal Song",
+                                       shortVerse: "They ought to be thoroughly pissed on, they ought to be publicly shot ...",
                                        lyrics: "They ought to be thoroughly pissed on, \n"
             + "They ought to be publicly shot (Bang! Bang!), \n"
             + "They ought to be tied to a urinal, \n"
@@ -1051,6 +1102,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let theVaginaSong = Song(title: "The Vagina Song",
+                                       shortVerse: "Someone's in my sister's vagina, someone's in my sister I know ...",
                                        lyrics: "Someone’s in my brother’s big anus, \n"
             + "Someone’s in my brother I know. \n"
             + "Someone’s in my brother’s big anus, \n"
@@ -1068,6 +1120,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let thereWasALittleBird = Song(title: "There Was a Little Bird",
+                                             shortVerse: "No bigger than a turd, A-sittin on a telephone pole ...",
                                        lyrics: "There was a little bird, \n"
             + "No bigger than a turd, \n"
             + "A-sittin’ on a telephone pole. \n"
@@ -1081,6 +1134,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let twentyToes = Song(title: "Twenty Toes",
+                                    shortVerse: "There is a game called twenty toes, that's played around the town ...",
                                     lyrics: "There is a game called twenty toes, \n"
             + "That’s played around the town. \n"
             + "Women play with ten toes up, \n"
@@ -1090,6 +1144,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let weGotVirgins = Song(title: "We've Got Virgins",
+                                      shortVerse: "We've got virgins, at our hash, at our hash",
                                       lyrics: "Tune: “Frere Jacques” \n\n"
             
             + "We’ve got virgins, \n"
@@ -1115,6 +1170,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let whatAWonderfulTrail = Song(title: "What a Wonderful Trail",
+                                             shortVerse: "I see trails of true, poison oak too. I hear ...",
                                              lyrics: "I see trails of true, \n"
             + "Poison oak too. \n"
             + "I hear hashers on trail \n"
@@ -1126,9 +1182,10 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let whipItOutAtTheBallGame = Song(title: "Whip it Out at the Ballgame",
+                                                shortVerse: "Whip it around at the crowd. Dip it in peanuts ...",
                                              lyrics: "Tune: “Take Me Out to the Ballgame” \n\n"
             + "Whip it out at the ball game, \n"
-            + "Whip it round at the crowd. \n"
+            + "Whip it out at the crowd. \n"
             + "Dip it peanuts and Crackerjacks – \n"
             + "I don’t care if you give it a whack! \n"
             + "Because it’s beat your meat at the ball game. \n"
@@ -1140,6 +1197,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let whyWereTheyBornSoBeautiful = Song(title: "Why Were They Born So Beautiful?",
+                                                    shortVerse: "Why were they born at all? They're no fucking use ...",
                                                     lyrics: "Why were they born so beautiful? \n"
             + "Why were they born at all? \n"
             + "They’re no fucking use to anyone, \n"
@@ -1151,7 +1209,8 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let yogiBear = Song(title: "Yogi Bear",
-                                                    lyrics: "Tune: “Camptown Races” \n\n"
+                                  shortVerse: "There’s a bear in the deep dark woods – Yogi, Yogi,",
+                                  lyrics: "Tune: “Camptown Races” \n\n"
             + "*Introduction* \n"
             + "There’s a bear in the deep dark woods – Yogi, Yogi, \n"
             + "There’s a bear in the deep dark woods – Yogi, Yogi Bear. \n"
@@ -1199,6 +1258,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let youreStupid = Song(title: "You're Stupid",
+                                     shortVerse: "You’re stupid, you’re stupid, You’re really fucking dumb, If it ...",
                                      lyrics: "You’re stupid, you’re stupid, \n"
             + "You’re really fucking dumb, \n"
             + "If it wasn’t for your mother, \n"
@@ -1208,6 +1268,7 @@ class SongTableViewController: UITableViewController {
         }
         
         guard let ZuluWarrior = Song(title: "Zulu Warrior",
+                                     shortVerse: "Ika zimba zimba zoy Ika zimba zimba zoo Drink it ",
                                      lyrics: "Ika zimba zimba zoy \n"
             + "Ika zimba zimba zoo \n"
             + "Drink it down you Zulu warrior, \n"
