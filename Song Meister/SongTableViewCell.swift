@@ -3,6 +3,7 @@ import UIKit
 class SongTableViewCell: UITableViewCell {
     
     @IBOutlet weak var lblSongTitle: UILabel!
+    @IBOutlet weak var lblShortVerse: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -4,7 +4,7 @@ import os.log
 class Song: NSObject, NSCoding  {
     
     var title: String
-    var shortDescription: String?
+    var shortVerse: String
     var lyrics: String
     
     //MARK: Archiving Paths
@@ -13,10 +13,9 @@ class Song: NSObject, NSCoding  {
     
     func encode(with aCoder: NSCoder) {
         aCoder.encode(title, forKey: PropertyKey.title)
-        aCoder.encode(shortDescription, forKey: PropertyKey.shortDescription)
+        aCoder.encode(shortVerse, forKey: PropertyKey.shortVerse)
         aCoder.encode(lyrics, forKey: PropertyKey.lyrics)
     }
-    
     
     required convenience init?(coder aDecoder: NSCoder) {
         
@@ -25,38 +24,46 @@ class Song: NSObject, NSCoding  {
             return nil
         }
         
-        let shortDescription = aDecoder.decodeObject(forKey: PropertyKey.shortDescription) as? String
+        guard let shortVerse = aDecoder.decodeObject(forKey: PropertyKey.shortVerse) as? String else {
+            os_log("Unable to decode the shortVerse for a song object.", log: OSLog.default, type: .debug)
+            return nil
+        }
         
         guard let lyrics = aDecoder.decodeObject(forKey: PropertyKey.lyrics) as? String else {
-            os_log("Unable to decode the title for a song object.", log: OSLog.default, type: .debug)
+            os_log("Unable to decode the lyrics for a song object.", log: OSLog.default, type: .debug)
             return nil
         }
         
         // Must call designated initializer.
-        self.init(title: title, shortDescription: shortDescription, lyrics: lyrics)
+        self.init(title: title, shortVerse: shortVerse, lyrics: lyrics)
     }
     
     struct PropertyKey {
         static let title = "title"
-        static let shortDescription = "shortDescription"
+        static let shortVerse = "shortVerse"
         static let lyrics = "lyrics"
     }
     
-    init?(title: String, shortDescription: String?, lyrics: String) {
+    init?(title: String, shortVerse: String, lyrics: String) {
         
         // Required fields
         guard !title.isEmpty else{
             return nil
         }
         
+        // Required fields
+        guard !shortVerse.isEmpty else{
+            return nil
+        }
+        
+        // Required fields
         guard !lyrics.isEmpty else{
             return nil
         }
         
         //Initialize stored properties
         self.title = title
-        self.shortDescription = shortDescription
+        self.shortVerse = shortVerse
         self.lyrics = lyrics
-    
     }
 }
