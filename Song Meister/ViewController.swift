@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             
             let songTitle = selectedSong.title
             let songLyrics = selectedSong.lyrics
-            let shortDescription = selectedSong.shortDescription
+            let shortVerse = selectedSong.shortVerse
             
             labelSongTitle.text = songTitle
             textViewSongLyrics.text =  songLyrics
