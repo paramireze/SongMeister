@@ -78,7 +78,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="labelShortDescription" destination="laR-fp-2gm" id="5jj-MQ-lxe"/>
                         <outlet property="labelSongTitle" destination="pqW-yc-yoS" id="gVK-BU-uyS"/>
                         <outlet property="textViewSongLyrics" destination="Hl9-gz-Bhc" id="9fM-Db-RBT"/>
                     </connections>
